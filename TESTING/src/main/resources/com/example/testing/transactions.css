@@ -1,0 +1,8 @@
+.table-view .column-header .label {
+    -fx-text-fill: #000000; /* Set the column header text color to blue */
+    -fx-font-weight: bold; /* Make the cell text bold */
+}
+.table-cell {
+    -fx-alignment: center; /* Align cell content vertically and horizontally centered */
+    -fx-font-weight: bold; /* Make the cell text bold */
+}
