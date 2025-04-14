@@ -8,20 +8,20 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" stylesheets="@transactions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing.Controllers.TransactionsController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" stylesheets="@transactions.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing.Controllers.TransactionsController">
     <children>
         <ToolBar prefHeight="40.0" prefWidth="605.0">
             <items>
-                <Label fx:id="transactionsLabel" alignment="CENTER" prefHeight="26.0" prefWidth="78.0" text="Transactions" textAlignment="CENTER" textFill="#129fd7">
+                <Label fx:id="transactionsLabel" alignment="CENTER" prefHeight="26.0" prefWidth="78.0" text="Transactions" textAlignment="CENTER" textFill="#0b55b5">
                     <font>
-                        <Font name="Arial Narrow Bold" size="14.0" />
+                        <Font name="Bahnschrift Bold" size="14.0" />
                     </font>
                 </Label>
             </items>
         </ToolBar>
-        <Button fx:id="backbuttonn3" layoutX="25.0" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="26.0" prefWidth="60.0" text="Back" textFill="#0bb52c">
+        <Button fx:id="backbuttonn3" layoutX="25.0" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="26.0" prefWidth="60.0" text="Back" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Button>
         <TableView fx:id="table" layoutX="185.0" layoutY="73.0" prefHeight="187.0" prefWidth="214.0">
@@ -30,14 +30,14 @@
                 <TableColumn fx:id="type" prefWidth="107.99993896484375" text="Type" />
             </columns>
         </TableView>
-        <Label fx:id="curentBalanceLABEL" alignment="CENTER" layoutX="174.0" layoutY="298.0" prefHeight="26.0" prefWidth="117.0" text=" Current Balance " textAlignment="CENTER" textFill="#0bb52c">
+        <Label fx:id="curentBalanceLABEL" alignment="CENTER" layoutX="174.0" layoutY="298.0" prefHeight="26.0" prefWidth="117.0" text=" Current Balance " textAlignment="CENTER" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
-        <Label fx:id="balanceLabel" alignment="CENTER" layoutX="303.0" layoutY="298.0" prefHeight="26.0" prefWidth="78.0" textAlignment="CENTER" textFill="#25bc52">
+        <Label fx:id="balanceLabel" alignment="CENTER" layoutX="303.0" layoutY="298.0" prefHeight="26.0" prefWidth="78.0" textAlignment="CENTER" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
     </children>

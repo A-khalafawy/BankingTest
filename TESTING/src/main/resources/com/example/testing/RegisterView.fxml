@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing.Controllers.RegisterViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="600.0" style="-fx-background-color: #ADD8E6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testing.Controllers.RegisterViewController">
     <children>
         <ToolBar prefHeight="40.0" prefWidth="600.0">
             <items>
-                <Label fx:id="labelR" alignment="CENTER" prefHeight="26.0" prefWidth="70.0" text="REGISTER" textAlignment="CENTER" textFill="#129fd7">
+                <Label fx:id="labelR" alignment="CENTER" prefHeight="26.0" prefWidth="70.0" text="REGISTER" textAlignment="CENTER" textFill="#0b55b5">
                     <font>
                         <Font name="Arial Narrow Bold" size="14.0" />
                     </font>
@@ -26,57 +26,60 @@
         <TextField fx:id="Txtpn" layoutX="213.0" layoutY="292.0" />
         <PasswordField fx:id="TxtP" layoutX="212.0" layoutY="344.0" />
         <PasswordField fx:id="Txtcp" layoutX="213.0" layoutY="397.0" />
-        <Label fx:id="Usename" alignment="CENTER" layoutX="248.0" layoutY="165.0" prefHeight="26.0" prefWidth="78.0" text="USERNAME" textAlignment="CENTER" textFill="#0bb52c">
+        <Label fx:id="Usename" alignment="CENTER" layoutX="250.0" layoutY="165.0" prefHeight="26.0" prefWidth="78.0" text="USERNAME" textAlignment="CENTER" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
-        <Label fx:id="NationalId" alignment="CENTER" contentDisplay="CENTER" layoutX="244.0" layoutY="212.0" prefHeight="26.0" prefWidth="86.0" text="NATIONAL ID" textAlignment="CENTER" textFill="#0bb52c">
+        <Label fx:id="NationalId" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="212.0" prefHeight="26.0" prefWidth="86.0" text="NATIONAL ID" textAlignment="CENTER" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
-        <Label fx:id="firstName" alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="65.0" prefHeight="26.0" prefWidth="95.0" text="FIRST NAME" textAlignment="CENTER" textFill="#0bb52c">
+        <Label fx:id="firstName" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="65.0" prefHeight="26.0" prefWidth="95.0" text="FIRST NAME" textAlignment="CENTER" textFill="#0b55b5">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
-            </font>
-        </Label>
-
-        <Label fx:id="lastName" alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="118.0" prefHeight="26.0" prefWidth="95.0" text="LAST NAME" textAlignment="CENTER" textFill="#0bb52c" wrapText="true">
-            <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
 
-        <Label fx:id="PhoneNum" alignment="CENTER" contentDisplay="CENTER" layoutX="240.0" layoutY="265.0" prefHeight="26.0" prefWidth="95.0" text="PHONE NUMBER" textAlignment="CENTER" textFill="#0bb52c" wrapText="true">
+        <Label fx:id="lastName" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="118.0" prefHeight="26.0" prefWidth="95.0" text="LAST NAME" textAlignment="CENTER" textFill="#0b55b5" wrapText="true">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
 
-        <Label fx:id="Password" alignment="CENTER" contentDisplay="CENTER" layoutX="232.0" layoutY="318.0" prefHeight="26.0" prefWidth="95.0" text="PASSWORD" textAlignment="CENTER" textFill="#0bb52c" wrapText="true">
+        <Label fx:id="PhoneNum" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="265.0" prefHeight="26.0" prefWidth="95.0" text="PHONE NUMBER" textAlignment="CENTER" textFill="#0b55b5" wrapText="true">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
 
-        <Label fx:id="ConfirmPassword" alignment="CENTER" contentDisplay="CENTER" layoutX="213.0" layoutY="371.0" prefHeight="26.0" prefWidth="134.0" text="CONFIRM PASSWORD" textAlignment="CENTER" textFill="#0bb52c" wrapText="true">
+        <Label fx:id="Password" alignment="CENTER" contentDisplay="CENTER" layoutX="250.0" layoutY="318.0" prefHeight="26.0" prefWidth="95.0" text="PASSWORD" textAlignment="CENTER" textFill="#0b55b5" wrapText="true">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
             </font>
         </Label>
 
-        <Button fx:id="Register" layoutX="484.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#submit" prefHeight="26.0" prefWidth="86.0" text="REGISTER" textFill="#0bb52c">
+        <Label fx:id="ConfirmPassword" alignment="CENTER" contentDisplay="CENTER" layoutX="220.0" layoutY="371.0" prefHeight="26.0" prefWidth="134.0" text="CONFIRM PASSWORD" textAlignment="CENTER" textFill="#0b55b5" wrapText="true">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift Bold" size="14.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="Register" alignment="CENTER" layoutX="448.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#submit" prefHeight="40.0" prefWidth="132.0" text="Register" textFill="white" wrapText="true"
+                style="-fx-background-color: #0b55b5; -fx-background-radius: 10; -fx-font-size: 16px; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);">
+            <font>
+                <Font name="Bahnschrift" size="19.0" />
             </font>
         </Button>
 
-        <Button fx:id="Back" layoutX="21.0" layoutY="439.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="26.0" prefWidth="60.0" text="Back" textFill="#0bb52c">
+        <Button fx:id="Back" alignment="CENTER" layoutX="40.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="40.0" prefWidth="132.0" text="Back" textFill="white" wrapText="true"
+                style="-fx-background-color: #0b55b5; -fx-background-radius: 10; -fx-font-size: 16px; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);">
             <font>
-                <Font name="Arial Narrow Bold" size="14.0" />
+                <Font name="Bahnschrift" size="19.0" />
             </font>
         </Button>
 
     </children>
 </AnchorPane>
+
